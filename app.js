@@ -9,7 +9,7 @@ function adicionarAmigo() {
 
     if (nome === "") {
         // Valida se o nome não está vazio
-        alert("Por favor, insira um nome válido."); 
+        alert("Por favor, insira um nome!"); 
         return;
     }
 
