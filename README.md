@@ -12,23 +12,23 @@ Aplicativo simples e interativo para sorteio de amigo secreto. O usuário pode a
 
 ✨ Funcionalidades
 
-Adicionar nomes: O usuário digita um nome e o adiciona à lista ao clicar no botão "Adicionar".
+- Adicionar nomes: O usuário digita um nome e o adiciona à lista ao clicar no botão "Adicionar".
 
-Validação de entrada: O sistema impede entradas vazias e nomes duplicados.
+- Validação de entrada: O sistema impede entradas vazias e nomes duplicados.
 
-Exibição da lista: Os nomes adicionados aparecem em uma lista abaixo do campo de entrada.
+- Exibição da lista: Os nomes adicionados aparecem em uma lista abaixo do campo de entrada.
 
-Sorteio aleatório: Ao clicar em "Sortear Amigo", um nome será escolhido e exibido na tela.
+- Sorteio aleatório: Ao clicar em "Sortear Amigo", um nome será escolhido e exibido na tela.
 
-Reset automático: Após o sorteio, a aplicação exibe uma mensagem e reinicia automaticamente após 100ms.
+- Reset automático: Após o sorteio, a aplicação exibe uma mensagem e reinicia automaticamente após 100ms.
 
 🛠 Tecnologias Utilizadas
 
-HTML5, CSS3 e JavaScript para a interface e lógica do jogo.
+- HTML5, CSS3 e JavaScript para a interface e lógica do jogo.
 
-Função trim() para limpar espaços extras antes e depois dos nomes inseridos.
+- Função trim() para limpar espaços extras antes e depois dos nomes inseridos.
 
-setTimeout() para garantir que o nome sorteado seja exibido antes da limpeza da tela.
+- setTimeout() para garantir que o nome sorteado seja exibido antes da limpeza da tela.
 
 🧐 Por que utilizar setTimeout()?
 
@@ -42,6 +42,9 @@ O alert() pausa a execução do código, mas antes disso, o navegador pode otimi
 
 - Isso evita que o nome desapareça antes do alert() ser exibido, garantindo uma melhor experiência para o usuário.
 
-👩‍💻 Autora
+👩‍💻 Autora: Claudia do Vale
 
-Projeto desenvolvido por Claudia do Vale.
+Agradecimentos especiais pelo apoio neste projeto:
+ - MCIO Brasil: https://mciobrasil.org.br/
+ - Alura: https://www.alura.com.br/
+ - Oracle: https://www.oracle.com/br/education/oracle-next-education/
